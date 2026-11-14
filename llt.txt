@@ -4,7 +4,7 @@ on: push
 
 jobs:
     hello:
-       runs-on: ubantu-latest
-  	steps:
-	  - name: welcome
+      runs-on: ubuntu-latest
+      steps:
+	- name: welcome
 	   run: echo "Sufyan"
