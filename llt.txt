@@ -1,0 +1,10 @@
+name: MY workflow
+
+on: push
+
+jobs:
+    hello:
+       runs-on: ubantu-latest
+  	steps:
+	  - name: welcome
+	   run: echo "Sufyan"
